@@ -1,0 +1,186 @@
+
+
+header {
+    background-image: url(imagenprudy/blurred-pictur-grees-grass-morning-background_43907-56.avif);
+    width: 100%;
+}
+h1 {
+    font-size: 200%;
+}
+.nav-list {
+    display: flex;
+    gap: 5vw;
+}
+a {
+    color: #000;
+}
+ul {
+    list-style: none;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.razryv {
+    height:100px;
+}
+.razryv1 {
+    height:0px;
+}
+.photo1 {
+    float:left; 
+    width:30%;
+}
+.photo2 {
+    float:right; 
+    width:30%;
+}
+.art1 {
+    display: inline-block;
+    width:80%;
+    vertical-align: middle;
+    padding: 10px 5%;
+    text-align: center;
+}
+p {
+    margin: 4px 4px 4px 0; 
+    width:100%; 
+    height:100%;
+    font-size: 150%;
+}
+.final {
+    padding:10% 20%;
+    background-image: url(imagenprudy/blurred-pictur-grees-grass-morning-background_43907-56.avif);
+    background-attachment: fixed;
+}
+.final>div {
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+    font-size:30px;
+    text-align: center;
+    border: 4px solid black;
+}
+footer {
+    background-color:black;
+    padding:10px 0;
+    text-align: center;
+    color:white;
+}
+@media (max-width: 1200px){ 
+    .art1 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 60%;
+        padding: 30px 10%;
+        justify-content: center;
+    }
+    .razryv1{
+        height:100px;
+    }
+    .photo1 {
+        width: 50%;
+    } 
+    .photo2 {
+        width: 50%;
+    } 
+    p {
+        width: 200%;
+    }
+} 
+@media(max-width: 1024px){
+    h1 { 
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .art1 {
+        width: 60%;
+        padding: 30px 10%;
+        justify-content: center;
+    }
+    img {
+        width: 200%;
+    }
+    .razryv1{
+        height:100px;
+    }
+    .photo1 {
+        width: 50%;
+    } 
+    .photo2 {
+        width: 50%;
+    } 
+    p {
+        width: 200%;
+    }
+}
+@media (max-width: 950px){ 
+    .art1 {
+        width: 60%;
+        padding: 30px 10%;
+        justify-content: center;
+    }
+    img {
+        width: 200%;
+    }
+    .razryv1{
+        height:100px;
+    }
+    .photo1 {
+        width: 50%;
+    } 
+    .photo2 {
+        width: 50%;
+    } 
+    p {
+        width: 200%;
+    }
+}
+@media (max-width: 850px){ 
+    nav {
+        width: 100%;
+    }
+    
+   .art1 {
+        width: 60%;
+        padding: 30px 10%;
+        justify-content: center;
+    }
+    img {
+        width: 200%;
+    }
+    .razryv1{
+        height:100px;
+    }
+    .photo1 {
+        width: 50%;
+    } 
+    .photo2 {
+        width: 50%;
+    } 
+    p {
+        width: 200%;
+    }
+}
+@media (max-width: 700px){ 
+    .art1 {
+        width: 60%;
+        padding: 30px 10%;
+        justify-content: center;
+    }
+    img {
+        width: 250%;
+    }
+    .razryv1{
+        height:100px;
+    }
+    .photo1 {
+        width: 50%;
+    } 
+    .photo2 {
+        width: 50%;
+    } 
+    p {
+        width: 200%;
+    }
+}
