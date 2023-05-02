@@ -15,6 +15,7 @@ h1 {
 .nav-list {
     display: flex;
     gap: 5vw;
+    width: 80%;
 }
 a {
     color: #000;
@@ -79,10 +80,10 @@ footer {
         justify-content: center;
     }
     img {
-        width: 200%;
+        width: 100%;
     }
     .razryv1{
-        height:100px;
+        height:200px;
     }
     .photo1 {
         width: 50%;
@@ -95,26 +96,26 @@ footer {
         font-size: medium;
     }
 } 
-@media(max-width: 1024px){
+@media(max-width: 1025px){
     .art1 {
-        width: 60%;
+        width: 70%;
         padding: 30px 10%;
         justify-content: center;
     }
     img {
-        width: 200%;
+        width: 100%;
     }
     .razryv1{
         height:100px;
     }
     .photo1 {
-        width: 50%;
+        width: 40%;
     } 
     .photo2 {
-        width: 50%;
+        width: 40%;
     } 
     p {
-        width: 200%;
+        width: 50%;
         font-size: medium;
     }
 }
@@ -123,7 +124,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         width: 60%;
-        padding: 30px 10%;
+        padding: 30px 15%;
         justify-content: center;
     }
     img {
@@ -150,7 +151,7 @@ footer {
     
    .art1 {
         width: 60%;
-        padding: 30px 10%;
+        padding: 30px 15%;
         justify-content: center;
     }
     img {
@@ -196,3 +197,61 @@ footer {
         font-size: 150%;
     }
 }
+@media (max-width: 400px){ 
+    .art1 {
+        width: 60%;
+        padding: 30px 10%;
+        justify-content: center;
+    }
+    img {
+        width: 250%;
+    }
+    .razryv1{
+        height:100px;
+    }
+    .photo1 {
+        width: 50%;
+    } 
+    .photo2 {
+        width: 50%;
+    } 
+    p {
+        width: 200%;
+        font-size: medium;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    .nav-list {
+        font-size: small;
+    }
+} 
+@media (max-width: 300px){ 
+    .art1 {
+        width: 60%;
+        padding: 30px 10%;
+        justify-content: center;
+    }
+    img {
+        width: 250%;
+    }
+    .razryv1{
+        height:100px;
+    }
+    .photo1 {
+        width: 50%;
+    } 
+    .photo2 {
+        width: 50%;
+    } 
+    p {
+        width: 200%;
+        font-size: medium;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    .nav-list {
+        display: block;
+    }
+} 
