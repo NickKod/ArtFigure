@@ -46,10 +46,15 @@ h1 {
 }
 .art1 {
     display: inline-block;
-    width:80%;
+    width:85%;
     vertical-align: middle;
     padding: 10px 5%;
     text-align: center;
+}
+.nomer {
+    background-color: rgb(212, 212, 99);
+    color: rgb(8, 32, 5);
+    width: 80%;
 }
 p {
     margin: 4px 4px 4px 0; 
@@ -64,14 +69,17 @@ p {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+   
 }
 .final>div {
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+   padding: 5px;
     background-color: white;
     font-size:30px;
     text-align: center;
     border: 4px solid black;
+    align-items: center;
+    justify-content: center;
 }
 footer {
     background-color:black;
@@ -102,19 +110,17 @@ footer {
         font-size: medium;
     }
 } 
-@media(max-width: 1200px){
+@media(max-width: 1025px){
     .art1 {
-        display: flex;
-        flex-direction: column-reverse;
         width: 70%;
-        padding: 30px 10%;
+        padding: 35px 15%;
         justify-content: center;
     }
     img {
         width: 100%;
     }
     .razryv1{
-        height:100px;
+        height:0px;
     }
     .photo1 {
         width: 40%;
@@ -131,7 +137,7 @@ footer {
     .art1 {
         display: flex;
         flex-direction: column-reverse;
-        width: 60%;
+        width: 65%;
         padding: 30px 15%;
         justify-content: center;
     }
@@ -149,7 +155,7 @@ footer {
     } 
     p {
         width: 200%;
-        font-size: medium;
+        font-size: larger;
     }
 }
 @media (max-width: 850px){ 
@@ -158,7 +164,7 @@ footer {
     }
     
    .art1 {
-        width: 60%;
+        width: 65%;
         padding: 30px 15%;
         justify-content: center;
     }
@@ -176,17 +182,16 @@ footer {
     } 
     p {
         width: 200%;
-        font-size: medium;
+        font-size: larger;
     }
 }
 @media (max-width: 700px){ 
     .art1 {
-        width: 60%;
-        padding: 30px 10%;
+        width: 65%;
         justify-content: center;
     }
     img {
-        width: 250%;
+        width: 210%;
     }
     .razryv1{
         height:100px;
@@ -199,13 +204,16 @@ footer {
     } 
     p {
         width: 200%;
-        font-size: medium;
+        font-size: larger;
     }
     h1 {
         font-size: 150%;
     }
+    .final>div {
+        font-size: 25px;
+    }
 }
-@media (max-width: 400px){ 
+@media (max-width: 500px){ 
     .art1 {
         width: 60%;
         padding: 30px 10%;
@@ -231,7 +239,42 @@ footer {
         font-size: 150%;
     }
     .nav-list {
+        display: block;
+    }
+    .final>div {
+        font-size: 20px;
+    }
+} 
+@media (max-width: 400px){ 
+    .art1 {
+        width: 65%;
+        padding: 30px 10%;
+        justify-content: center;
+    }
+    img {
+        width: 250%;
+    }
+    .razryv1{
+        height:100px;
+    }
+    .photo1 {
+        width: 50%;
+    } 
+    .photo2 {
+        width: 50%;
+    } 
+    p {
+        width: 200%;
+        font-size: larger;
+    }
+    h1 {
+        font-size: 150%;
+    }
+    .nav-list {
         font-size: small;
+    }
+    .final {
+        padding: 10% 10%;
     }
 } 
 @media (max-width: 300px){ 
@@ -261,5 +304,8 @@ footer {
     }
     .nav-list {
         display: block;
+    }
+    .final>div {
+        font-size: 15px;
     }
 } 
